@@ -196,6 +196,9 @@
 
 @media (max-width: 1199.98px) {
 
+    .main-block {
+            padding-bottom: 70px;
+        }
     .main-block__container {
         padding-top: 100px;
         padding-bottom: 30px;
@@ -229,6 +232,9 @@
 }
 
 @media (max-width: 767.98px) {
+    .main-block {
+            padding-bottom: 30px;
+        }
     .main-block__container {
         padding-top: 140px;
 
