@@ -4,12 +4,10 @@
   | default @import url()
   |============================
 */
+@import url('./common.css');
 @import url('./reset.css');
-@import url('./command.css');
 @import url('./header.css');
+@import url('./main.css');
+@import url('./how__page.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-}
+
