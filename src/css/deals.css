@@ -1,0 +1,117 @@
+.deals {
+    padding-top: 110px;
+}
+
+.deals__container {}
+
+.deals__header {
+    margin-bottom: 50px;
+}
+
+.deals__tabs {}
+
+
+.header-deals {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-deals__content {
+    flex: 1 1 auto;
+}
+
+.header-deals__title {}
+
+.header-deals__title:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.header-deals__text {
+    line-height: 1.5;
+    max-width: 470px;
+}
+
+.header-deals__link {
+    border-radius: 5px;
+    padding: 22px 33px;
+    display: inline-flex;
+    box-shadow: 0px 1.85px 3.15px 0px rgba(248, 90, 71, 0.02), 0px 8.15px 6.52px 0px rgba(248, 90, 71, 0.03), 0px 20px 13px 0px rgba(248, 90, 71, 0.04), 0px 38.52px 25.48px 0px rgba(248, 90, 71, 0.04), 0px 64.81px 46.85px 0px rgba(248, 90, 71, 0.05), 0px 100px 80px 0px rgba(248, 90, 71, 0.07);
+    background-color: rgb(248, 90, 71);
+
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.35;
+
+    text-align: center;
+}
+
+.header-deals__link:hover {
+    background-color: #b9473a;
+}
+
+
+.tabs-deals {}
+
+.tabs-deals__nav {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 10px;
+    margin-bottom: 35px;
+}
+
+.tabs-deals__button {
+    font-size: 19px;
+    line-height: 1.368;
+    text-align: left;
+    background-color: transparent;
+    position: relative;
+}
+
+.tabs-deals__button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(248, 90, 71);
+    transition: width 0.3s ease 0s;
+}
+
+.tabs-deals__button:hover {
+    color: rgb(248, 90, 71);
+}
+
+.tabs-deals__button:hover::after {
+    width: 100%;
+}
+
+.tabs-deals__button.active {
+    color: rgb(248, 90, 71);
+}
+
+.tabs-deals__button.active::after {
+    width: 100%;
+}
+
+
+.tabs-deals__body {}
+
+.tabs-deals__item {}
+
+
+
+.item-tabs {}
+
+.item-tabs__items {}
+
+.item-tabs__item {}
+
+.item-tabs__options {}
+
+.item-tabs__option {}
+
+.item-tabs__image {}
