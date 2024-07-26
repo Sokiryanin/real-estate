@@ -15,3 +15,5 @@ const swiper = new Swiper('.slider-main-block', {
     prevEl: '.body-main-block__arrow.swiper-button-next',
   },
 });
+
+
