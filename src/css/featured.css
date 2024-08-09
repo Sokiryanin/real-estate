@@ -113,7 +113,7 @@
     line-height: 1.35
 }
 
-@media (min-width: 991px) {
+@media (min-width: 990.98px) {
 
     .featured__title {
         margin-bottom: 50px;
